@@ -96,7 +96,6 @@ body {
 }
 
 .block {
-  padding: 10px 15px;
   background-color: #1c1c1e;
   color: #fff;
   margin: 0;
@@ -107,6 +106,10 @@ body {
   color: #fff;
   text-decoration: none;
   display: block;
+}
+
+.block a p {
+  padding-left: 10px;
 }
 
 /* A: 左上 & 右上だけ角丸 */
