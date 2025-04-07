@@ -79,14 +79,15 @@ body {
   visibility: visible;
 }
 .menu ul li a {
-  display: flex;
-  align-items: center;
+  display: flex !important;
+  align-items: center !important;
   color: white;
   text-decoration: none;
   font-size: 26px;
   height: 50px;
   width: calc(100vw - 40px);
 }
+
 /**/
 .block-list {
   list-style: none;
