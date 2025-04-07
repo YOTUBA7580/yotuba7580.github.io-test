@@ -3,13 +3,11 @@
   padding: 1;
   box-sizing: border-box;
 }
-
 body {
   font-family: Arial, sans-serif;
   background-color: #111;
   color: white;
 }
-
 .header {
   position: fixed;
   top: 0;
@@ -22,7 +20,6 @@ body {
   z-index: 1000;
   height: 42px;
 }
-
 .logo {
   position: fixed;
   height: 40px;
@@ -41,7 +38,6 @@ body {
   height: 42px;
   width: auto;
 }
-
 .menu-button {
   font-size: 30px;
   cursor: pointer;
@@ -52,7 +48,6 @@ body {
   margin: -2px;
   height: 42px;
 }
-
 .menu {
   position: fixed;
   top: 40px;
@@ -61,11 +56,9 @@ body {
   padding: 20px;
   overflow: hidden;
 }
-
 .menu.open {
   right: 0;
 }
-
 .menu ul {
   list-style: none;
   padding: 0;
@@ -73,10 +66,6 @@ body {
 }
 .menu ul li {
   height: 50px;
-  visibility: visible;
-}
-.menu.open ul li {
-  visibility: visible;
 }
 .menu ul li a {
   display: flex !important;
@@ -87,73 +76,52 @@ body {
   height: 50px;
   width: calc(100vw - 42px);
 }
-
 /**/
 .block-list {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-
 .block {
   background-color: #1c1c1e;
   color: #fff;
   margin: 0;
   border: none;
 }
-
 .block a {
   color: #fff;
   text-decoration: none;
   display: block;
 }
-
 .block a p {
   padding-left: 10px;
 }
-
-/* A: 左上 & 右上だけ角丸 */
 .block.A {
   border-radius: 10px 10px 0 0;
 }
-
-/* B: 全角なし */
 .block.B {
   border-radius: 0;
 }
-
-/* C: 左下 & 右下だけ角丸 */
 .block.C {
   border-radius: 0 0 10px 10px;
 }
-
-/* D: 全角丸 */
 .block.D {
   border-radius: 10px;
 }
-
-/* 接続線：A→B, B→B, B→C, A→C */
 .block.A + .block.B,
 .block.B + .block.B,
 .block.B + .block.C,
 .block.A + .block.C {
   border-top: 2px solid #3d3c41;
 }
-
-/* 接続線をつけない（代わりに間隔）パターン：A→D, B→D, C→D */
 .block.A + .block.D,
 .block.B + .block.D,
-.block.C + .block.D {
-  margin-top: 10px;
-}
-
-/* C→A, D→A も間隔あける */
+.block.C + .block.D,
 .block.C + .block.A,
 .block.D + .block.A {
   margin-top: 10px;
 }
 /**/
-
 .homepageyotuba {
   display: flex;
   justify-content: center;
@@ -165,14 +133,11 @@ body {
   overflow: hidden;
   text-overflow: ellipsis;
 }
-
 .index_version p {
   height: 40px;
   font-size: 32px;
 }
-
-/* メディアクエリの共通部分をまとめ、差分だけ記述 */
-@media (max-aspect-ratio: 1/1) {
+@media (max-aspect-ratio: 1/1) { /*mobile*/
   .logo {
     margin-left: calc(50vw - 94.27px);
   }
@@ -186,8 +151,7 @@ body {
     height: calc(100% - 60px);
   }
 }
-
-@media (min-aspect-ratio: 1/1) {
+@media (min-aspect-ratio: 1/1) { /*wide*/
   .logo {
     margin-left: 16px;
   }
