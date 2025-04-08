@@ -94,7 +94,7 @@ body {
   display: block;
 }
 .block a p {
-  padding-left: 10px;
+  margin-left: 10px;
 }
 .block.A {
   border-radius: 10px 10px 0 0;
@@ -112,7 +112,7 @@ body {
 .block.B + .block.B,
 .block.B + .block.C,
 .block.A + .block.C {
-  border-top: 2px solid #3d3c41;
+  border-top: 1px solid #3d3c41;
 }
 .block.A + .block.D,
 .block.B + .block.D,
