@@ -61,15 +61,15 @@ body {
 .menu.open {
   right: 0;
 }
-.menu.top-menu ul {
+.menu div ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.menu.top-menu ul li {
+.menu div ul li {
   height: 50px;
 }
-.menu.top-menu ul li a {
+.menu div ul li a {
   display: flex !important;
   align-items: center !important;
   color: white;
@@ -79,27 +79,12 @@ body {
   width: calc(100vw - 42px);
 }
 
-/* footer-menuスタイル */
-.menu.footer-menu ul {
-  list-style: none;
-  padding: 0;
-  margin: 0;
-}
-.menu.footer-menu ul li {
-  height: 50px;
-}
-.menu.footer-menu ul li a {
-  display: flex !important;
-  align-items: center !important;
-  color: white;
-  text-decoration: none;
-  font-size: 26px;
-  height: 50px;
-  width: calc(100vw - 42px);
+.footer-menu {
   position: fixed;
   bottom: 20px;
   width: 100%;
 }
+
 /**/
 .block-list {
   list-style: none;
