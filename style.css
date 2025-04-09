@@ -61,6 +61,7 @@ body {
 .menu.open {
   right: 0;
 }
+/* 共通スタイル */
 .menu ul {
   list-style: none;
   padding: 0;
@@ -79,7 +80,13 @@ body {
   width: calc(100vw - 42px);
 }
 
-.footer-menu {
+/* top-menuスタイル */
+.menu.top-menu ul li a {
+  /* 特に変更なし */
+}
+
+/* footer-menuスタイル */
+.menu.footer-menu ul li a {
   position: fixed;
   bottom: 20px;
   width: 100%;
