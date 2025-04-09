@@ -76,7 +76,6 @@ body {
   text-decoration: none;
   font-size: 26px;
   height: 50px;
-  width: calc(100vw - 42px);
 }
 
 .footer-menu {
@@ -174,6 +173,6 @@ body {
     height: calc(100% - 42px);
   }
   .menu div ul li a {
-    width: 210px;
+    width: 310px;
   }
 }
