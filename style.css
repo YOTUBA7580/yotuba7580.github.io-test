@@ -78,6 +78,13 @@ body {
   height: 50px;
   width: calc(100vw - 42px);
 }
+
+.footer-menu {
+  position: fixed;
+  bottom: 20px;
+  width: 100%;
+}
+
 /**/
 .block-list {
   list-style: none;
@@ -162,8 +169,8 @@ body {
     text-align: left;
   }
   .menu {
-    right: -251px;
-    width: 250px;
+    right: -351px;
+    width: 350px;
     height: calc(100% - 42px);
   }
   .menu ul li a {
