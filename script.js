@@ -1,1 +1,1 @@
-function toggleMenu(){let e=document.getElementById("menu");e.classList.toggle("open")}
+document.getElementById("ua").textContent = navigator.userAgent;
