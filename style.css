@@ -61,21 +61,26 @@ body {
 .menu.open {
   right: 0;
 }
-.menu div ul {
+.menu .top-menu ul {
   list-style: none;
   padding: 0;
   margin: 0;
 }
-.menu div ul li {
+.menu .top-menu ul li {
   height: 50px;
 }
-.menu div ul li a {
+.menu .top-menu ul li a {
   display: flex !important;
   align-items: center !important;
   color: white;
   text-decoration: none;
   font-size: 26px;
   height: 50px;
+}
+
+.menu .infos p {
+  font-size: 20px;
+  color: #98989f;
 }
 
 /**/
@@ -114,14 +119,14 @@ body {
 .block.B + .block.B,
 .block.B + .block.C,
 .block.A + .block.C {
-  border-top: 1px solid #3d3c41;
+  border-top: 1px solid #3c3c3f;
 }
 .block.A + .block.D,
 .block.B + .block.D,
 .block.C + .block.D,
 .block.C + .block.A,
 .block.D + .block.A {
-  margin-top: 10px;
+  margin-top: 30px;
 }
 /**/
 .homepageyotuba {
