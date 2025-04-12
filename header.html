@@ -14,5 +14,8 @@
             <li class="block D"><a href="#"><p>言語(未実装)</p></a>
         </ul>
     </div>
-    <div class="infos"><p>v2.x.x α</p></div>
+    <div class="infos"><p>v2.x.x α</p><br><p>UA: </p><p id="ua"></p></div>
 </div>
+<script>function toggleMenu(){let e=document.getElementById("menu");e.classList.toggle("open")}
+    document.getElementById("ua").textContent = navigator.userAgent;
+</script>
