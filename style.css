@@ -78,12 +78,6 @@ body {
   height: 50px;
 }
 
-.footer-menu {
-  position: fixed;
-  bottom: 20px;
-  width: 100%;
-}
-
 /**/
 .block-list {
   list-style: none;
@@ -144,6 +138,7 @@ body {
 .index_version p {
   height: 40px;
   font-size: 32px;
+  margin: 0;
 }
 @media (max-aspect-ratio: 1/1) { /*mobile*/
   .logo {
