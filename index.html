@@ -5,10 +5,8 @@
     <title>yotuba777のホームページ</title>
 </head>
 
-<body><div id="header-container"></div>
-<script>
-fetch('header.html') .then(response => response.text()) .then(data => document.getElementById('header-container').innerHTML = data);
-function toggleMenu(){let e=document.getElementById("menu");e.classList.toggle("open")}</script>
+<body><div id="header-container"></div><script>fetch("header.html").then(r=>r.text()).then(d=>{document.getElementById("header-container").innerHTML=d;const ua=navigator.userAgent,e=document.getElementById("ua");e&&(e.textContent=ua)});function toggleMenu(){document.getElementById("menu").classList.toggle("open")}</script>
+
 
 <div class="homepageyotuba">
     <h1>yotuba777のホームページ</h1>
