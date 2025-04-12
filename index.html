@@ -8,7 +8,6 @@
 <body><div id="header-container"></div>
 <script>
 fetch('header.html') .then(response => response.text()) .then(data => document.getElementById('header-container').innerHTML = data);
-document.getElementById("ua").textContent = navigator.userAgent;
 function toggleMenu(){let e=document.getElementById("menu");e.classList.toggle("open")}</script>
 
 <div class="homepageyotuba">
