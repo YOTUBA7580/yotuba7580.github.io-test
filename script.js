@@ -1,1 +1,2 @@
-document.getElementById("ua").textContent = navigator.userAgent;
+const ua = navigator.userAgent;
+document.getElementById("ua").textContent = ua;
