@@ -79,6 +79,7 @@ body {
 }
 
 .menu .infos p {
+  margin: 5px 5px 5px 10px;
   font-size: 20px;
   color: #98989f;
 }
@@ -125,7 +126,8 @@ body {
 .block.B + .block.D,
 .block.C + .block.D,
 .block.C + .block.A,
-.block.D + .block.A {
+.block.D + .block.A,
+.block.D + .block.D {
   margin-top: 30px;
 }
 /**/
